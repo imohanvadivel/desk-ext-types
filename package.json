@@ -1,0 +1,18 @@
+{
+  "name": "desk-ext-types",
+  "version": "1.0.0",
+  "main": "global.d.ts",
+  "keywords": ["zoho desk", "typescript", "types", "typings", "type definitions", "desk type definitions", "zoho"],
+	"author": {
+		"name": "Mohan Vadivel",
+		"url": "https://mohanvadivel.com",
+		"email": "mohan@mohanvadivel.com"
+	},
+	"license": "MIT",
+  "description": "TypeScript type definitions for authoring Zoho Desk extensions.",
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/imohanvadivel/desk-ext-types.git"
+	},
+	"bugs": "https://github.com/imohanvadivel/desk-ext-types/issues"
+}
