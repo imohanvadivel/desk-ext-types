@@ -515,7 +515,7 @@ declare global {
          * The data to be appended as query parameters to the URL.
          * Example: { latitude: "28.65", longitude: "77.23", hourly: "precipitation,rain", timezone: "auto" }
          */
-        data?: Record<string, any>;
+        data: Record<string, any>;
 
         /**
          * The key for authenticating the third-party domain.
@@ -528,7 +528,7 @@ declare global {
          * Allowed values: "arraybuffer", "blob", "document", "json", "text", "ms-stream", "empty string".
          * If `responseType` is mentioned in the payload, `postBody` and `fileObj` will not be considered.
          */
-        responseType?: "arraybuffer" | "blob" | "document" | "json" | "text" | "ms-stream" | "";
+        responseType: "arraybuffer" | "blob" | "document" | "json" | "text" | "ms-stream" | "";
 
         /**
          * An array that helps upload file objects to the third-party domain.
