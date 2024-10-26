@@ -1,6 +1,7 @@
 {
   "name": "desk-ext-types",
-  "version": "1.0.0",
+  "version": "1.0.1",
+	"types": "index.d.ts",
   "main": "",
   "keywords": ["zoho desk", "typescript", "types", "typings", "type definitions", "desk type definitions", "zoho"],
 	"author": {

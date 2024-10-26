@@ -1,3 +1,5 @@
+export {};
+
 type locale =
     | "en"
     | "ja"
