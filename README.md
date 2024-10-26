@@ -10,19 +10,13 @@ This repository contains typescript type definition for authoring Zoho Desk exte
 npm i --save-dev desk-ext-types
 ```
 
-2. Configure tsconfig.json
+2. Include the reference in main.ts
 
-```json
-{
-    "compilerOptions": {
-        "typeRoots": ["./node_modules/@types", "./node_modules/desk-ext-types"]
-    }
-}
+```ts
+/// <reference types="desk-ext-types" />
 ```
 
-The configuration above tells the TypeScript compiler to look for type definitions in both `./node_modules/@types` and `./node_modules/desk-ext-type`. Usually, most external type definitions come from [Definitely Typed](https://github.com/DefinitelyTyped/DefinitelyTyped) and are stored in `/@types`, which TypeScript includes automatically. However, since we keep the extension types separately, they’re installed in `/desk-ext-types` instead.
-
-This setup makes the types globally available without needing import statements, as the extension SDK is part of the main environment rather than a package that the extension itself includes.
+With this setup, the types are made globally accessible without requiring any import statements, since the extension SDK is integrated into the main environment instead of being a package that the extension itself incorporates.
 
 #### Also checkout
 
