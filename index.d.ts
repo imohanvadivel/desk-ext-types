@@ -415,11 +415,7 @@ declare global {
              * US: "https://desk.zoho.com"
              * IN: "https://desk.zoho.in"
              */
-            deskDomainUrl: {
-                US: string;
-                IN: string;
-                [key: string]: string; // For other regions if applicable
-            };
+            deskDomainUrl: string;
 
             /**
              * ID of the thread.
@@ -603,6 +599,16 @@ declare global {
          * Default is "red".
          */
         color?: "red" | "blue";
+
+        /**
+         * Represents the text of the OK button.
+         */
+        okText?: string;
+
+        /**
+         * Represents the text of the Cancel button.
+         */
+        cancelText?: string;
     }
 
     interface InvokeOptions {
